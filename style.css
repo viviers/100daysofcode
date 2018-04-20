@@ -1,0 +1,13 @@
+.frame {
+  $bg-color: #7577FA;
+  $dot-color: #9192FB;
+
+  $dot-size: 2px;
+  $dot-space: 22px;
+
+  		linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+  		linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+  		$dot-color;
+  	background-size: 300px, 300px;
+
+}
